@@ -1,0 +1,11 @@
+services:
+  backend: 
+    container_name: portal-app-nodejs
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: app:1.0
+    ports: 
+     - 8080:3000
+    volumes: 
+      - .:/app

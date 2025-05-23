@@ -1,0 +1,22 @@
+{
+  "name": "backend-encuestas",
+  "version": "1.0.0",
+  "description": "Backend para recoger datos ingresados en el formulario de registro de Wifi de invitados",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Elton Armelini",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "googleapis": "^144.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "keywords": []
+}
